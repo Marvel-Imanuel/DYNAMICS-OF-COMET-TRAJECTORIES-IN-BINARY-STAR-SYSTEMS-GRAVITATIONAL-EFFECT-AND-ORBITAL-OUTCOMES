@@ -16,6 +16,7 @@ This repository contains a MATLAB simulation of a binary star system, where two 
 ## Method
 The simulation solves the discrete-time form of Newton's second law for each body:
 v[k+1] = v[k] + (F_total[k] / m) * Δt
+
 r[k+1] = r[k] + v[k+1] * Δt
 
 The gravitational forces are computed at each time step and applied accordingly to each mass in the system.
